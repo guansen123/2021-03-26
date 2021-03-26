@@ -3,8 +3,7 @@
     if ($j > 9){
       $i++;
       $j = 1;
-      echo "
-";
+      echo "\n";
     }
     if ( $i <= 9 ){
       printf("%d*%d=%d \t",$i,$j,($i*$j));
