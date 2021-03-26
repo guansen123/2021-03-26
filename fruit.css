@@ -1,10 +1,29 @@
-table th td{
+table ,th ,td{
     border: 1px solid black;
     border-collapse: collapse;
 }
 table{
+    border-spacing: gold;
+}
+th{
+   background-color: gray;
+   color: white; 
+}
+th{
+    text-align: center;
     background-color: gray;
+    color: honeydew;
 }
 th,td{
     padding: 5px;
+}
+td{
+    text-align: right;
+}
+#table02 th{
+     background-color: skyblue;
+}
+
+#table02 tr:nth-child(even) {
+    color: yellowgreen;
 }
