@@ -1,10 +1,10 @@
-table{
+table th td{
     border: 1px;
 }
-th{
+  th{
     background-color: gray;
     font-weight: bold;
 }
-
+  td{
 
 }
